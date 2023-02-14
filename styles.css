@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0px;
+}
+.NAVBAR{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.rightside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rightsideleft ul{
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.rightsideleft ul li{
+padding: 10px;
+}
+.rightsideright ul{
+ list-style: none;
+ 
+ display: flex;
+  justify-content: space-between;
+}
+.rightsideright ul li{
+ padding: 10px;
+}
+.rightsideright ul li button{
+padding: 10px;
+width: 90px;
+background-color: rgb(255, 253, 253);
+border-radius: 20px;
+border: 2px solid blue;
+color: blue;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainleft{
+  margin-top: 190px;
+  width: 30%;
+  display: flex;
+  padding: 50px;
+margin-left: 50px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.mainleft input{
+  margin: 10px;
+  border-radius: 2px;
+  width: 450px;
+  height: 30px;
+}
+.mainleft button{
+  margin: 10px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(65, 65, 255);
+  color: whitesmoke;
+   width: 350px;
+}
+.mainright{
+  display: flex;
+  margin-top: 200px;
+  margin-left: 440px;
+}
